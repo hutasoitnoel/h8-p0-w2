@@ -1,0 +1,39 @@
+///1. Newton Second Law///
+STORE `m` to 600
+STORE `a` to 2
+STORE `f` to `m` TIMES `a`
+
+DISPLAY `f`
+
+
+
+///2. Tahun Kabisat///
+STORE "year" to any number
+
+IF `year` MODULO 4 EQUALS 0 AND `year` MODULO 100 NOT EQUALS 0
+	DISPLAY "It's a leap year!"
+IF ELSE `year` MODULO 4 EQUALS 0 AND `year` MODULO 100 EQUALS 0 AND `year` MODULO 400 EQUALS 0
+	DISPLAY "It's a leap year!"
+ELSE
+	DISPLAY "It's not a leap year!"
+
+
+
+///3. Laundry Day///
+STORE `clothes` to 0
+
+WHILE `clothes` LESS THAN 20
+	DO `clothes` PLUS 1
+	DISPLAY `clothes`
+
+
+
+///4. Periksa Kuku///
+STORE `nailLength` to any string
+
+IF `nailLength` EQUALS "long"
+	DISPLAY "PUNISH!!!"
+IF ELSE 'nailLength' EQUALS "short"
+	DISPLAY "Praise!"
+ELSE 
+	DISPLAY "long/short?"
