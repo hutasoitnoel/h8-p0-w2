@@ -8,7 +8,7 @@ DISPLAY `f`
 
 
 ///2. Tahun Kabisat///
-STORE "year" to any number
+STORE `year` to any number
 
 IF `year` MODULO 4 EQUALS 0 AND `year` MODULO 100 NOT EQUALS 0
 	DISPLAY "It's a leap year!"
