@@ -1,6 +1,6 @@
 var tanggal = 29;
 var bulan = 2;
-var tahun = 2000;
+var tahun = 2001;
 
 switch(bulan){
   case 1:
