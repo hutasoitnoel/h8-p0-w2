@@ -29,11 +29,13 @@ WHILE `clothes` LESS THAN 20
 
 
 ///4. Periksa Kuku///
+STORE `studentTotal` to 40
+STORE `count` to 0
 STORE `nailLength` to any string
 
-IF `nailLength` EQUALS "long"
-	DISPLAY "PUNISH!!!"
-IF ELSE 'nailLength' EQUALS "short"
-	DISPLAY "Praise!"
-ELSE 
-	DISPLAY "long/short?"
+WHILE `count` LESS THAN `studentTotal` 
+	IF `nailLength` EQUALS "long"
+		DISPLAY "PUNISH!!!"
+	ELSE IF 'nailLength' EQUALS "short"
+		DISPLAY "Praise!"
+	DO `count` PLUS 1
